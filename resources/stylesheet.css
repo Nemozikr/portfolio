@@ -45,8 +45,25 @@ main {
   box-sizing: border-box;
   width: 100%;
   height: 80%;
-  text-align: center;
   background-color: #FFF ;
+}
+
+#Portfolio {
+  width: 80%;
+  padding-left: 2rem;
+}
+
+#Portfolio h3 {
+  font-size: 34px;
+}
+
+#Portfolio ul {
+  padding-left: 2rem;
+}
+
+#Intro {
+  text-align: center;
+  padding-bottom: 4rem;
 }
 
 footer {
