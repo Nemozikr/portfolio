@@ -6,18 +6,24 @@
 
 header {
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
   align-items: center;
   flex-direction: row wrap;
-  width: 90%;
+  width: 100%;
   height: 5%;
 }
 
-header ul {
+header nav {
   height: 100%;
   width: 100%;
   display: inline-flex;
   align-items: center;
+  justify-content: space-around;
+}
+
+header ul {
+  display: flex;
+  width: 50%;
   justify-content: space-around;
 }
 
