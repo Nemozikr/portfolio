@@ -35,6 +35,10 @@ header ul a {
   text-decoration: none;
 }
 
+header ul a:hover {
+  text-decoration: underline;
+}
+
 header li {
   display: inline;
 }
@@ -59,6 +63,32 @@ main {
 
 #Portfolio ul {
   padding-left: 2rem;
+}
+
+.projectTitle {
+  display: flex;
+  justify-content: space-between;
+}
+
+.projectTitle h3 {
+  display: inline;
+}
+
+button {
+  box-shadow: 1px 1px black;
+}
+
+button a {
+  text-decoration: none;
+}
+
+button:hover {
+  background-color: gray;
+}
+
+button:active {
+  background-color: darkgray;
+  box-shadow: none;
 }
 
 #Intro {
