@@ -6,11 +6,13 @@
 
 header {
   display: flex;
+  box-sizing: border-box;
   justify-content: center;
   align-items: center;
   flex-direction: row wrap;
   width: 100%;
   height: 5%;
+  background-color: #AAA1F5;
 }
 
 header nav {
@@ -19,12 +21,18 @@ header nav {
   display: inline-flex;
   align-items: center;
   justify-content: space-around;
-}
+  font-size: 20px;
+} 
 
 header ul {
   display: flex;
   width: 50%;
   justify-content: space-around;
+}
+
+header ul a {
+  color: #482AF5;
+  text-decoration: none;
 }
 
 header li {
@@ -34,19 +42,19 @@ header li {
 main {
   display: block;
   position: relative;
+  box-sizing: border-box;
   width: 100%;
+  height: 80%;
   text-align: center;
+  background-color: #5DAEF5;
 }
 
 footer {
   display: block;
-  width: 98%;
+  box-sizing: border-box;
+  width: 100%;
   position: absolute;
-  bottom: 2%;
-  left: 1%;
-  right: 1%;
-}
-
-footer ul {
-  padding-left: 2em;
+  bottom: 0;
+  padding: 2em;
+  background-color: #D05DF5;
 }
