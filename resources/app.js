@@ -8,8 +8,8 @@ const App = () => {
         <>
             <p>amogus</p>
         </>
-    )
-}
+    );
+};
 
 
-root.render(<App />)
+root.render(<App />);
